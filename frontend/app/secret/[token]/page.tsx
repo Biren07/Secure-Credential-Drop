@@ -1,17 +1,17 @@
 "use client";
 
-import { useState } from "react";
+import React, { useState } from "react";
 import { getSecret } from "../../../services/api";
 import { Key, AlertTriangle, Eye, Copy, Check } from "lucide-react";
 
 interface Props {
-  params: {
+  params: Promise<{
     token: string;
-  };
+  }>;
 }
 
 export default function SecretPage({ params }: Props) {
-  const { token } = params;
+  const { token } = React.use(params);
 
   const [secret, setSecret] = useState<string>("");
   const [error, setError] = useState<string>("");

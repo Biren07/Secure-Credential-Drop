@@ -1,6 +1,6 @@
 import { CreateSecretResponse, GetSecretResponse } from "../types";
 
-const BASE_URL = "https://secure-credential-drop.onrender.com";
+const BASE_URL = "http://localhost:5000";
 
 /**
  * Create secret

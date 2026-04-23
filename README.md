@@ -1,4 +1,3 @@
-<img width="960" height="897" alt="Screenshot 2026-04-23 153322" src="https://github.com/user-attachments/assets/96623cb5-b265-43af-b9a0-b8abec92900f" />
 # Secure Credential Drop(Task1)
 
 A secure, one-time secret sharing application that allows users to share sensitive information with expiring, self-destructing links.

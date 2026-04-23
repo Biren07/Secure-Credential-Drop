@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, use } from "react";
 import { getSecret } from "../../../services/api";
 import { Key, AlertTriangle, Eye, Copy, Check } from "lucide-react";
 
@@ -15,12 +15,13 @@ export default function SecretPage({ params }: Props) {
   const [error, setError] = useState<string>("");
   const [loading, setLoading] = useState(true);
   const [copied, setCopied] = useState(false);
+  const { token } = use(params);
 
   useEffect(() => {
     const fetchSecret = async () => {
       setLoading(true);
       try {
-        const data = await getSecret(params.token);
+        const data = await getSecret(token);
 
         if (data.text) {
           setSecret(data.text);
@@ -35,7 +36,7 @@ export default function SecretPage({ params }: Props) {
     };
 
     fetchSecret();
-  }, [params.token]);
+  }, [token]);
 
   const handleCopy = () => {
     navigator.clipboard.writeText(secret);

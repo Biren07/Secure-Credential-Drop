@@ -8,7 +8,7 @@ import cors from "cors";
 
 const app = express();
 app.use(cors({
-  origin: "http://localhost:3000",
+  origin: process.env.BASE_URL,
 }));
 app.use(express.json());
 app.use("/secret", secretRoutes);

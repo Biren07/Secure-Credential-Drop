@@ -7,9 +7,11 @@ import secretRoutes from "./routes/secretRoutes.js";
 import cors from "cors";
 
 const app = express();
-app.use(cors({
-  origin: process.env.BASE_URL,
-}));
+app.use(
+  cors({
+    origin: "*",
+  })
+);
 app.use(express.json());
 app.use("/secret", secretRoutes);
 

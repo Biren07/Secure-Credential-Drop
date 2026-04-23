@@ -1,3 +1,4 @@
+<img width="960" height="897" alt="Screenshot 2026-04-23 153322" src="https://github.com/user-attachments/assets/96623cb5-b265-43af-b9a0-b8abec92900f" />
 # Secure Credential Drop(Task1)
 
 A secure, one-time secret sharing application that allows users to share sensitive information with expiring, self-destructing links.
@@ -197,3 +198,12 @@ npm test
 
 This project is licensed under the ISC License.</content>
 <parameter name="filePath">C:\Users\dhami\Desktop\Task1\README.md
+
+#Image
+1.<img width="960" height="897" alt="Screenshot 2026-04-23 153322" src="https://github.com/user-attachments/assets/fa386d12-e960-4c96-bfd2-bed4743e4344" />
+2.<img width="1463" height="892" alt="Screenshot 2026-04-23 153544" src="https://github.com/user-attachments/assets/c0445de3-4a30-4416-8dcc-802a7e03798a" />
+3.<img width="1791" height="965" alt="Screenshot 2026-04-23 162842" src="https://github.com/user-attachments/assets/e5e87f08-582c-4641-b070-7b27fb804d25" />
+4.<img width="1746" height="931" alt="Screenshot 2026-04-23 162920" src="https://github.com/user-attachments/assets/1daadc1f-6afd-413e-9ab4-31a2d9b2973e" />
+
+
+
